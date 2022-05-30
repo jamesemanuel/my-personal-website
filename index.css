@@ -1,0 +1,149 @@
+*{
+    Padding: 0;
+    Margin: 0;
+}
+.nav-menu{
+    background-color: peru;
+    font-size: 38px;
+    position: absolute;
+    width: 100%;
+    height: 100;
+
+}
+.nav-menu ul li{
+    float: left;
+    margin-left:100px;
+    list-style-type: none;
+    text-transform: uppercase;
+
+}
+.nav-menu ul li a{
+    text-decoration: none;
+}
+.img-background{
+    padding-top: 100px;
+    background-image: url(./image/enjoy.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-background p{
+    font-size: 35px;
+    color: black;
+}
+.about-me img{
+    height: 150px;
+    width: 150px;
+    margin-left: 400px;
+    margin-top: 80px;
+    border-radius: 60px;
+}
+.nav-menu ul li a:hover{
+    color: antiquewhite
+}
+.nav-menu ul li:hover{
+    background-color: black;
+}
+.Me img{margin-top: 100px;
+    margin-left: 20px;
+
+}
+.overall-container{
+    display: flex;
+    margin: 50px;
+}
+.img-container1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left:150px;
+}
+.img-container2 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+.text-container1, .text-container2{
+   margin-left: 20px;
+}
+.text-container1 p, .text-container2 p{
+text-decoration: underline;
+color: gray;
+}
+.contact-details{
+    display: flex;
+    padding-top: 120px;
+    margin-left: 250px;
+    margin-right: 250px;
+   font-size: 20px;
+}
+.contact-text{
+    margin-right: 120px;
+
+}
+.contact-form{
+    width: 70px;
+    height: 70px;
+
+}
+.contact-text p{
+    font-size: 35px;
+    line-height: 95px;
+}
+.contact-form input{
+padding: 10px;
+padding-left: 90px;
+    
+}
+#button-submit{
+    height: 39px;
+    width: 70px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+textarea{
+    height: 15vh;
+    width: 260px;
+}
+#button-submit:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.contact-text h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-form h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70px;
+
+}
+.footercontainer{
+    background-color: grey;
+   
+}
+.footercontainer ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: large;
+    font-family: Impact,;
+
+}
+.footercontainer ul{
+    margin: 100px;
+}
+.footercontainer ul li{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.footercontainer p{
+    padding-left: 70px;
+    padding-bottom: 20px;
+    color: azure;
+}
